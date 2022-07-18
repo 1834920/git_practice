@@ -1,8 +1,8 @@
-const wantedArray = ['Train conductor', 'Teacher', 'Plumber', 'Phone repair mechanic', 'Painter', 'Interior decorator', 'Gardener', 'Computer programmer', 'Children\'s books author', 'Vegan chef']
+const wantedArray = ['Train conductor', 'Teacher', 'Plumber', 'Phone repair mechanic', 'Painter', 'Interior decorator', 'Gardener', 'Computer programmer', 'Children\'s books author', 'Vegan chef', 'Musician', 'Dog walker']
 
-const possessionArray = ['Complete chef\'s knives set', 'Bachelor\'s degree in computer science', 'Color swatches', '20-foot ladder', 'Wild imagination', 'Dry-erase pens', 'Sensible walking shoes', 'Shovel, rake, and hoe', 'Sharp eyes']
+const possessionArray = ['complete chef\'s knives set', 'bachelor\'s degree in computer science', 'color swatches', '20-foot ladder', 'wild imagination', 'dry-erase pens', 'sensible walking shoes', 'shovel, rake, and hoe', 'sharp eyes', 'keyboard and harmonica', 'dog leashes']
 
-const skillsArray = ['Typing', 'Chopping avocados', 'Keeping children quiet', 'Caring for plants', 'Writing innovative programs', 'Reading train time tables', 'Devising crazy stories', 'Cleaning up paint messes', ]
+const skillsArray = ['typing', 'chopping avocados', 'keeping children quiet', 'caring for plants', 'writing innovative programs', 'reading train time tables', 'devising crazy stories', 'cleaning up paint messes', 'singing background vocals', 'playing catch', 'teaching math']
 
 let jobArrayNumber = Math.floor(Math.random() * wantedArray.length);
 let job = wantedArray[jobArrayNumber];
@@ -13,7 +13,6 @@ let possession = possessionArray[possessionArrayNumber];
 let skillsArrayNumber = Math.floor(Math.random() * skillsArray.length);
 let skill = skillsArray[skillsArrayNumber];
 
-console.log(`Wanted: ${job}`);
-console.log(`In possession of: ${possession}`);
-console.log(`Good at: ${skill}`);
+console.log(`Wanted: ${job}. In possession of ${possession}. Good at ${skill}. Call Joe @ 555-123 4567.`);
+
 
