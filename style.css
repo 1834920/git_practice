@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    background-color: #000000;
+}
+
+li, a {
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    color: white;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 10%;
+    border-bottom: 1px solid #edf0f1;
+}
+
+.logo {
+    cursor: pointer;
+    height: 10%;
+    width: 10%;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0 1.25rem;
+}
+
+.nav-links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover {
+    color: #FFCCFF;
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-image {
+    padding: 2.25rem;
+    width: 50%;
+    height: auto;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    padding: 2.25rem;
+    font-family: 'Righteous', sans-serif;
+    font-size: 2rem;
+    color: #000000;
+    background-color: rgba(255, 204, 255, 1);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    
+}
+
+.btn:hover {
+    background-color: black;
+    color: rgba(255, 204, 255, 0.8);
+    border: 1px, #FFCCFF, solid; 
+}
+
+#message-container {
+    position: absolute;
+    font-family: 'Righteous', sans-serif;
+    font-size: .975rem;
+    text-align: center;
+    color: #000000;
+    background-color: #fff;
+    width: 38%;
+    margin-top: 14%;
+    height: auto;
+}
