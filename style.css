@@ -47,17 +47,26 @@ header {
     color: #FFCCFF;
 }
 
+
 .main-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
 }
-
+@media only screen and (max-width 500px) {
+    .main-image {
+        padding: 0; 
+        width: 80%; 
+        height: auto: 
+    }
+}
+@media only screen and (min-width 501px) {
 .main-image {
     padding: 2.25rem;
     width: 50%;
     height: auto;
+}
 }
 
 .btn-container {
@@ -84,6 +93,7 @@ header {
     border: 1px, #FFCCFF, solid; 
 }
 
+
 #message-container {
     position: absolute;
     font-family: 'Righteous', sans-serif;
@@ -91,8 +101,21 @@ header {
     text-align: center;
     color: #000000;
     background-color: rgba(255, 255, 255, 0.1);
-    width: 28%;
-    margin-top: 14%;
+    margin-top: 38%;
     height: auto;
     transform: rotate(-6deg);
+}
+
+@media only screen and (min-width: 450px) {
+    #message-container {
+        width: 50%;
+        margin-top: 25%;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    #message-container {
+        width: 28%;
+        margin-top: 10%;
+    }
 }
